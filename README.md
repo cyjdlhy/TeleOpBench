@@ -1,6 +1,7 @@
 # TeleOpBench: A Simulator-Centric Benchmark for Dual-Arm Dexterous Teleoperation
 
-Hangyu Li$^{\color{red}{\ast}}$, Qin Zhao$^{\color{red}{\ast}}$, Haoran Xu, Xinyu Jiang, Qingwei Ben, Feiyu Jia, Haoyu Zhao, Liang Xu, Jia Zeng, Hanqing Wang, Bo Dai, Junting Dong$^{\color{red}{\star}}$, Jiangmiao Pang
+Hangyu Li<sup style="color:red;">*</sup>, Qin Zhao<sup style="color:red;">*</sup>, Haoran Xu, Xinyu Jiang, Qingwei Ben, Feiyu Jia, Haoyu Zhao, Liang Xu, Jia Zeng, Hanqing Wang, Bo Dai, Junting Dong<sup style="color:red;">&#9733;</sup>, Jiangmiao Pang
+
 
 $^{\color{red}{\ast}}$: Equal contribution.  
 $^{\color{red}{\star}}$: Corresponding author.
