@@ -1,0 +1,28 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "connect": {
+              "host": "localhost",
+              "port": 4690
+            },
+            // "python": "",
+            // "python": "/mnt/miniconda3/envs/luci//dreamer/bin/python",
+            "name": "Python Attach",  // 配置的名称，会显示在 VSCode 的调试启动配置列表中。想叫啥叫啥
+            "type": "python",  // 指定调试器类型，Python。
+            "request": "attach",  // 调试会话的类型。"launch" 表示启动一个新程序的调试会话。
+            "program": "${file}",  // 启动文件的路径。${file}是VSCode的预定义变量，代表当前光标所在的文件。也可以直接指定xx.py
+            "console": "integratedTerminal",  // 指定输出在哪个终端中显示，这里是 VSCode 集成终端。
+            "justMyCode": false,  // 当设置为 true 时，仅调试自己的代码。false时包括非用户代码（如库代码，导入的模块）
+            // "env": {
+            //     "PATH": "${env:PATH}:/mnt/cuda-11.8/bin",
+            //     "LD_LIBRARY_PATH": "/mnt/cuda-11.8/lib64"
+            // }
+            
+            //"args": ["-a","123", "-b", "456"]   // 执行脚本的附加参数，默认生成是没有的，可以自己加
+        }
+    ]
+}

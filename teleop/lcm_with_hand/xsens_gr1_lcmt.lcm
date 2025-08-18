@@ -1,0 +1,4 @@
+struct xsens_gr1_lcmt
+{
+    double action[41];
+}

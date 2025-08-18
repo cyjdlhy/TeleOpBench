@@ -1,0 +1,4 @@
+struct inspire_hand
+{
+    float action[24];
+}

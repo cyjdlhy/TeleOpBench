@@ -1,0 +1,6 @@
+struct pd_tau_targets_lcmt
+{
+    float q_des[27];
+    double tau_ff[29];
+    int64_t timestamp_us;
+}

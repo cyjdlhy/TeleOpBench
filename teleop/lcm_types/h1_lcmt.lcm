@@ -1,0 +1,4 @@
+struct h1_lcmt
+{
+    float action[38];
+}

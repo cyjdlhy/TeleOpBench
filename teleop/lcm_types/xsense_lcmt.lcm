@@ -1,0 +1,4 @@
+struct xsense_lcmt
+{
+    double action[14];
+}
